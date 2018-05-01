@@ -11,7 +11,7 @@ docker-compose up kafka-cluster
 ##### Wait 2 minutes for the kafka cluster to be started
 
 
-##### A) FileStreamSourceConnector in standalone mode
+### A) FileStreamSourceConnector in standalone mode
 ##### Look at the source/demo-1/worker.properties file and edit bootstrap
 ##### Look at the source/demo-1/file-stream-demo.properties file
 ##### Look at the demo-file.txt file
@@ -47,7 +47,7 @@ connect-standalone worker.properties file-stream-demo-standalone.properties
 
 
 
-##### B) FileStreamSourceConnector in distributed mode:
+### B) FileStreamSourceConnector in distributed mode:
 ##### create the topic we're going to write to
 ```
 docker run --rm -it --net=host landoop/fast-data-dev bash
@@ -77,7 +77,7 @@ kafka-console-consumer --topic demo-2-distributed --from-beginning --bootstrap-s
 
 
 
-##### C) TwitterSourceConnector in distributed mode:
+### C) TwitterSourceConnector in distributed mode:
 ##### create the topic we're going to write to
 ```
 docker run --rm -it --net=host landoop/fast-data-dev bash
