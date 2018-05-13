@@ -93,3 +93,8 @@ kafka-console-consumer --topic demo-3-twitter --bootstrap-server 127.0.0.1:9092
 ##### Setup instructions for the connector are at: https://github.com/Eneco/kafka-connect-twitter#####setup
 ##### fill in the required information at demo-3/source-twitter-distributed.properties
 ##### Launch the connector and start seeing the data flowing in!
+
+
+```$xslt
+https://github.com/Eneco/kafka-connect-twitter
+```
